@@ -106,12 +106,124 @@
     font-size: .65rem;
   }
 }
+</style><style>
+.premiere {
+  display: grid;
+  grid-template-columns: 1.3fr 1fr;
+  gap: clamp(22px, 5vw, 70px);
+  align-items: center;
+  padding-block: clamp(35px, 6vw, 85px);
+}
+.premiere-copy p {
+  color: #3c5b6d;
+  max-width: 54ch;
+}
+.premiere-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+.premiere-actions a {
+  border: 1px solid #25485c;
+  border-radius: 8px;
+  padding: 6px 13px;
+  font-weight: 800;
+}
+.premiere-actions a:first-child {
+  background: #071d33;
+  color: #9df8c8;
+}
+.premiere-desk {
+  background: radial-gradient(ellipse at top, #234b51, #071d33 75%);
+  color: white;
+  border: 1px solid #315368;
+  border-radius: 20px;
+  padding: clamp(16px, 4vw, 33px);
+  box-shadow: 0 12px 34px #071d3329;
+}
+.premiere-desk .kicker {
+  color: #9df8c8;
+}
+.premiere-desk h3 {
+  font-size: 1.5rem;
+  margin-block: 4px 18px;
+}
+.premiere-seats {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 6px;
+}
+.premiere-seats a {
+  display: grid;
+  place-items: center;
+  min-height: 44px;
+  border-radius: 8px;
+  border: 1px solid #7295a5;
+  background: #193e54;
+  font-weight: 900;
+}
+.premiere-seats a:hover,
+.premiere-seats a:focus-visible {
+  color: #071d33;
+  background: #9df8c8;
+}
+.ai-desk {
+  margin-block-end: 45px;
+}
+.ai-desk details {
+  background: #ebf7f4;
+  border-inline-start: 4px solid #00664f;
+  border-radius: 8px;
+  padding: 17px 22px;
+}
+.ai-desk summary {
+  font-weight: 900;
+  cursor: pointer;
+}
+.ai-desk a {
+  color: #00664f;
+  text-decoration: underline;
+  font-weight: 800;
+}
+@media(max-width:720px) {
+  .premiere {
+    grid-template-columns: 1fr;
+  }
+}
 </style></head>
 <body data-route=evidence><div class="progress-line" aria-hidden="true"></div><a class="skip" href="#intro">رفتن به محتوا</a><header class="nav"><div class="wrap bar"><a class="logo site-brand" data-page="home" href="?page=home">◈ اتاق رأی<small>سجاد محمدباقر | مدرسهٔ حافظان وحی</small></a><nav class="site-nav" aria-label="ناوبری"><a data-page="home" href="?page=home">خانه</a><a data-page="jurors" href="?page=jurors">۱۲ شخصیت</a><a data-page="evidence" href="?page=evidence">شواهد</a><a data-page="lab" href="?page=lab">آزمایشگاه رأی</a><a data-page="game" href="?page=game">بازی فکرینو</a></nav><span class="edition" dir="ltr">FILM FILE / 1957</span></div></header>
 <main id="top"><div class="page-hero" hidden><div class="wrap"><small>فکرینو هفتم / پروندهٔ سینمایی</small><h1></h1><p></p></div></div><section class="hero"><div class="heroimg" aria-hidden="true"></div><div class="filmstrip" aria-hidden="true"><i></i><i></i><i></i></div><div class="wrap herocopy"><div class="over"><i></i> پروندهٔ سینمایی · اثر سیدنی لومت</div><h1>۱۲ مرد<br><em>خشمگین</em></h1><div class="en" dir="ltr">12 ANGRY MEN</div><p>یازده نفر آماده‌اند حکم بدهند. یک نفر می‌خواهد اول حرف بزنند.</p><div class="actions"><a class="primary" href="#jurors">چهره‌ها را ببینید <b>↙</b></a><a class="secondary" href="#intro">معرفی فیلم</a></div></div><div class="wrap frame" dir="ltr"><span>◈ &nbsp; SIDNEY LUMET</span><span>1957 &nbsp; / &nbsp; B&amp;W</span></div></section>
 <div class="facts"><div class="wrap factgrid"><div><small>سال ساخت</small><b>۱۹۵۷</b></div><div><small>کارگردان</small><b>سیدنی لومت</b></div><div><small>نویسنده</small><b>رجینالد رز</b></div><div><small>گونه</small><b>درام دادگاهی</b></div></div></div>
 <section class="wrap intro" id="intro"><div><div class="kicker">۰۱ / معرفی فیلم</div><h2>یک اتاق،<br>دوازده روایت.</h2></div><div><p class="lead">دوازده عضو هیئت منصفه باید دربارهٔ نوجوانی که به قتل پدرش متهم شده به اتفاق آرا تصمیم بگیرند. گرمای اتاق و عجلهٔ اعضا به نفع یک رأی سریع است. مخالفت یک نفر کافی است تا همه مجبور شوند دلیل رأی‌شان را توضیح دهند.</p><p>لومت با تغییر فاصلهٔ دوربین از آدم‌ها، اتاق آشنا را رفته‌رفته تنگ‌تر نشان می‌دهد. هرچه بحث جلوتر می‌رود، واکنش اعضا به یکدیگر به اندازهٔ خود شواهد اهمیت پیدا می‌کند.</p></div></section>
-<div class="wrap route-cards"><a data-page="jurors" href="?page=jurors"><small>۰۱</small><strong>دور میز هیئت منصفه</strong><span>پروندهٔ ۱۲ شخصیت</span></a><a data-page="evidence" href="?page=evidence"><small>۰۲</small><strong>بازخوانی شواهد</strong><span>چاقو، شاهدها و صحنه‌های کلیدی</span></a><a data-page="lab" href="?page=lab"><small>۰۳</small><strong>آزمایشگاه رأی</strong><span>مقایسهٔ سه محور برای هر صندلی</span></a><a data-page="game" href="?page=game"><small>۰۴</small><strong>چالش فکرینو</strong><span>سه موقعیت و تمرین گروهی ۱۲ نفره</span></a></div><section class="cast" id="jurors"><div class="wrap"><div class="secthead"><div><div class="kicker">۰۲ / شخصیت‌ها</div><h2>چهره‌های اتاق رأی</h2><p>روی هر چهره بزنید تا تحلیل شخصیت و لحظهٔ تعیین‌کنندهٔ او را بخوانید.</p></div><span class="badge">حاوی جزئیات داستان</span></div><div class="room"><div class="roomhead"><h3>دور میز هیئت منصفه</h3><span>نقشهٔ تعاملی</span></div><p>روی هر چهره بزنید تا پرونده‌اش باز شود.</p><div class="tableplan" id="tableplan" aria-label="چهره‌های اعضای هیئت منصفه"></div><p class="roomfoot">قاب سبز، تنها مخالفِ محکومیت در رأی اول را نشان می‌دهد.</p></div><p class="gallerylabel">همهٔ پرونده‌ها</p><div class="gallery" id="gallery"></div><noscript>برای باز کردن پرونده‌ها، جاوااسکریپت را فعال کنید.</noscript></div></section>
+
+<section class="wrap premiere" aria-labelledby="premiere-title">
+  <div class="premiere-copy">
+    <span class="kicker">فکرینو هفتم / ورود به پرونده</span>
+    <h2 id="premiere-title">قبل از رأی دادن، یک سؤال بپرس.</h2>
+    <p>پروندهٔ ۱۲ مرد خشمگین را از سه زاویه ببین. اول با اعضای هیئت منصفه آشنا شو، بعد شواهد را بسنج و در بازی تصمیم بگیر هر رأی از کجا آمده.</p>
+    <div class="premiere-actions">
+      <a data-page="jurors" href="jurors.html">انتخاب صندلی ←</a>
+      <a data-page="game" href="game.html">شروع چالش ۱۲ سؤالی ←</a>
+      <a href="#ai-desk">پاسخ دستیار هوش مصنوعی ↓</a>
+    </div>
+  </div>
+  <aside class="premiere-desk" aria-label="انتخاب یکی از دوازده صندلی">
+    <span class="kicker">نقشهٔ هیئت منصفه</span>
+    <h3>صندلی‌ات رو انتخاب کن</h3>
+    <div class="premiere-seats"><a href="jurors.html#juror-1" data-page="jurors" data-target="juror-1" aria-label="پروندهٔ صندلی ۱">۱</a><a href="jurors.html#juror-2" data-page="jurors" data-target="juror-2" aria-label="پروندهٔ صندلی ۲">۲</a><a href="jurors.html#juror-3" data-page="jurors" data-target="juror-3" aria-label="پروندهٔ صندلی ۳">۳</a><a href="jurors.html#juror-4" data-page="jurors" data-target="juror-4" aria-label="پروندهٔ صندلی ۴">۴</a><a href="jurors.html#juror-5" data-page="jurors" data-target="juror-5" aria-label="پروندهٔ صندلی ۵">۵</a><a href="jurors.html#juror-6" data-page="jurors" data-target="juror-6" aria-label="پروندهٔ صندلی ۶">۶</a><a href="jurors.html#juror-7" data-page="jurors" data-target="juror-7" aria-label="پروندهٔ صندلی ۷">۷</a><a href="jurors.html#juror-8" data-page="jurors" data-target="juror-8" aria-label="پروندهٔ صندلی ۸">۸</a><a href="jurors.html#juror-9" data-page="jurors" data-target="juror-9" aria-label="پروندهٔ صندلی ۹">۹</a><a href="jurors.html#juror-10" data-page="jurors" data-target="juror-10" aria-label="پروندهٔ صندلی ۱۰">۱۰</a><a href="jurors.html#juror-11" data-page="jurors" data-target="juror-11" aria-label="پروندهٔ صندلی ۱۱">۱۱</a><a href="jurors.html#juror-12" data-page="jurors" data-target="juror-12" aria-label="پروندهٔ صندلی ۱۲">۱۲</a></div>
+  </aside>
+</section>
+<section class="wrap ai-desk" id="ai-desk" aria-labelledby="ai-title">
+  <span class="kicker">اتاق گفت‌وگو / پاسخ نوشته‌شده توسط دستیار</span>
+  <h2 id="ai-title">از هوش مصنوعی بپرس</h2>
+  <details>
+    <summary>آیا پیدا شدن یک چاقوی مشابه ثابت می‌کند متهم بی‌گناه است؟</summary>
+    <p><strong>پاسخ دستیار</strong> پیدا شدن چاقوی مشابه نشان می‌دهد سلاح پرونده تنها نمونهٔ موجود نبوده. این کشف یک دلیل برای تردید در ادعای دادستان است. برای فهمیدن اینکه چه کسی از چاقوی پرونده استفاده کرده، شواهد دیگری لازم داریم.</p>
+    <p><strong>نوبت تو</strong> اگر جای شمارهٔ ۸ بودی، بعد از بررسی چاقو کدام شاهد را دوباره بررسی می‌کردی؟</p>
+    <a data-page="evidence" href="evidence.html">مقایسهٔ شواهد ←</a>
+  </details>
+</section>
+<div class="wrap route-cards"><a data-page="jurors" href="?page=jurors"><small>۰۱</small><strong>دور میز هیئت منصفه</strong><span>پروندهٔ ۱۲ شخصیت</span></a><a data-page="evidence" href="?page=evidence"><small>۰۲</small><strong>بازخوانی شواهد</strong><span>چاقو، شاهدها و صحنه‌های کلیدی</span></a><a data-page="lab" href="?page=lab"><small>۰۳</small><strong>آزمایشگاه رأی</strong><span>مقایسهٔ سه محور برای هر صندلی</span></a><a data-page="game" href="?page=game"><small>۰۴</small><strong>چالش فکرینو</strong><span>دوازده سؤال و تمرین گروهی ۱۲ نفره</span></a></div><section class="cast" id="jurors"><div class="wrap"><div class="secthead"><div><div class="kicker">۰۲ / شخصیت‌ها</div><h2>چهره‌های اتاق رأی</h2><p>روی هر چهره بزنید تا تحلیل شخصیت و لحظهٔ تعیین‌کنندهٔ او را بخوانید.</p></div><span class="badge">حاوی جزئیات داستان</span></div><div class="room"><div class="roomhead"><h3>دور میز هیئت منصفه</h3><span>نقشهٔ تعاملی</span></div><p>روی هر چهره بزنید تا پرونده‌اش باز شود.</p><div class="tableplan" id="tableplan" aria-label="چهره‌های اعضای هیئت منصفه"></div><p class="roomfoot">قاب سبز، تنها مخالفِ محکومیت در رأی اول را نشان می‌دهد.</p></div><p class="gallerylabel">همهٔ پرونده‌ها</p><div class="gallery" id="gallery"></div><noscript>برای باز کردن پرونده‌ها، جاوااسکریپت را فعال کنید.</noscript></div></section>
 <section class="evidence" id="evidence"><div class="wrap"><div class="kicker">۰۳ / بازخوانی شواهد</div><h2>یک ادعا، دو نگاه</h2><p class="e-lead">یکی از شواهد را انتخاب کنید و ادعای اولیه را کنار پرسش هیئت منصفه بخوانید. این بخش داستان را فاش می‌کند.</p><div class="e-tabs" aria-label="انتخاب شاهد یا مدرک"><button type="button" data-evidence="0" aria-pressed="true">چاقوی ضامن‌دار</button><button type="button" data-evidence="1" aria-pressed="false">شاهد سالخورده</button><button type="button" data-evidence="2" aria-pressed="false">شاهد روبه‌رو</button></div><div class="e-panel" id="evidencePanel" aria-live="polite"><article><h3>ادعای اولیه</h3><p id="eClaim"></p></article><article><h3>تردیدی که شکل می‌گیرد</h3><p id="eDoubt"></p></article></div></div></section><section class="wrap case-room" id="jury-lab"><div class="kicker">فکرینو هفتم / آزمایشگاه رأی</div><h2>۱۲ صندلی، پشت هر رأی یک داستان</h2><p>ببین هر عضو در یک لحظهٔ کلیدی به چه چیزی تکیه می‌کند. برچسب‌ها برداشت ما از همان رفتارند و ممکن است در طول فیلم تغییر کنند.</p><div id="case-filters" aria-label="فیلتر محور رأی"><button type="button" data-filter="-1" aria-pressed="true">همهٔ صندلی‌ها</button><button type="button" data-filter="0" aria-pressed="false">شخص‌محور</button><button type="button" data-filter="1" aria-pressed="false">خودمحور</button><button type="button" data-filter="2" aria-pressed="false">دلیل‌محور</button></div><p id="case-count" role="status"></p><div class="case-grid"><article class="casefile" data-lens="0"><span class="case-label">صندلی ۱</span><span class="case-tag">شخص‌محور</span><h3>با اکثریت شروع می‌کند</h3><p>در رأی اول همراه جمع دست بلند می‌کند و بیشتر حواسش به ادارهٔ جلسه است. همراهی با جمع نشانه‌ای از تأثیر دیگران است، هرچند فیلم دلیل رأیش را روشن نمی‌کند.</p><button type="button" data-open="1" aria-haspopup="dialog">پروندهٔ کامل ↗</button></article><article class="casefile" data-lens="2"><span class="case-label">صندلی ۲</span><span class="case-tag">دلیل‌محور</span><h3>از دنباله‌روی تا سؤال دقیق</h3><p>اوایل توضیح محکمی برای رأیش ندارد. بعد تفاوت قد متهم و پدرش را به جهت ضربه ربط می‌دهد و بحث را به سمت بررسی چاقو می‌برد.</p><button type="button" data-open="2" aria-haspopup="dialog">پروندهٔ کامل ↗</button></article><article class="casefile" data-lens="1"><span class="case-label">صندلی ۳</span><span class="case-tag">خودمحور</span><h3>وقتی خاطره وارد پرونده می‌شود</h3><p>دلخوری از پسر خودش روی نگاهش به متهم سایه می‌اندازد. پاره شدن عکس در پایان نشان می‌دهد چقدر پرونده را شخصی کرده بود.</p><button type="button" data-open="3" aria-haspopup="dialog">پروندهٔ کامل ↗</button></article><article class="casefile" data-lens="2"><span class="case-label">صندلی ۴</span><span class="case-tag">دلیل‌محور</span><h3>رأی با یک مشاهده عوض می‌شود</h3><p>به شهادت زن وزن زیادی می‌دهد. وقتی رد عینک روی بینی شاهد مطرح می‌شود، می‌پذیرد که دید او در لحظهٔ حادثه قابل تردید است.</p><button type="button" data-open="4" aria-haspopup="dialog">پروندهٔ کامل ↗</button></article><article class="casefile" data-lens="2"><span class="case-label">صندلی ۵</span><span class="case-tag">دلیل‌محور</span><h3>تجربه‌ای که می‌شود نشان داد</h3><p>با نمایش شیوهٔ معمول گرفتن چاقوی ضامن‌دار، ادعای دادستان دربارهٔ جهت ضربه را به چالش می‌کشد.</p><button type="button" data-open="5" aria-haspopup="dialog">پروندهٔ کامل ↗</button></article><article class="casefile" data-lens="2"><span class="case-label">صندلی ۶</span><span class="case-tag">دلیل‌محور</span><h3>یک سؤال دربارهٔ انگیزه</h3><p>می‌پرسد اگر متهم قاتل بود، چرا باید به خانه برمی‌گشت؟ سؤالش سازگاری رفتار متهم با روایت دادستان را می‌سنجد.</p><button type="button" data-open="6" aria-haspopup="dialog">پروندهٔ کامل ↗</button></article><article class="casefile" data-lens="1"><span class="case-label">صندلی ۷</span><span class="case-tag">خودمحور</span><h3>مسابقه از پرونده مهم‌تر می‌شود</h3><p>برای رسیدن به مسابقهٔ بیسبال عجله دارد و تغییر رأیش به تمام شدن جلسه کمک می‌کند. شمارهٔ ۱۱ از او می‌خواهد دلیل رأیش را بگوید.</p><button type="button" data-open="7" aria-haspopup="dialog">پروندهٔ کامل ↗</button></article><article class="casefile" data-lens="2"><span class="case-label">صندلی ۸</span><span class="case-tag">دلیل‌محور</span><h3>یک چاقو، یک ادعای کمتر</h3><p>چاقویی مشابه روی میز می‌گذارد. همین نمونه کافی است تا ادعای منحصربه‌فرد بودن چاقوی پرونده زیر سؤال برود.</p><button type="button" data-open="8" aria-haspopup="dialog">پروندهٔ کامل ↗</button></article><article class="casefile" data-lens="2"><span class="case-label">صندلی ۹</span><span class="case-tag">دلیل‌محور</span><h3>جزئیاتی که جهت بحث را عوض می‌کند</h3><p>اول به شمارهٔ ۸ فرصت می‌دهد حرفش را بزند. بعد با به یاد آوردن رد عینک روی بینی شاهد زن، سرنخی برای سنجیدن شهادت او پیدا می‌کند.</p><button type="button" data-open="9" aria-haspopup="dialog">پروندهٔ کامل ↗</button></article><article class="casefile" data-lens="1"><span class="case-label">صندلی ۱۰</span><span class="case-tag">خودمحور</span><h3>پیش‌داوری جای بررسی را می‌گیرد</h3><p>از پیش دربارهٔ آدم‌های محلهٔ متهم حکم کلی دارد و همان تصور را به نوجوان نسبت می‌دهد.</p><button type="button" data-open="10" aria-haspopup="dialog">پروندهٔ کامل ↗</button></article><article class="casefile" data-lens="2"><span class="case-label">صندلی ۱۱</span><span class="case-tag">دلیل‌محور</span><h3>هر رأی باید دلیل داشته باشد</h3><p>وقتی شمارهٔ ۷ رأیش را عوض می‌کند، از او توضیح می‌خواهد. در بحث پرونده هم می‌پرسد چرا قاتل باید چاقو را در صحنه رها کرده باشد.</p><button type="button" data-open="11" aria-haspopup="dialog">پروندهٔ کامل ↗</button></article><article class="casefile" data-lens="0"><span class="case-label">صندلی ۱۲</span><span class="case-tag">شخص‌محور</span><h3>تحت تأثیر آخرین گوینده</h3><p>یک بار با توضیح شمارهٔ ۵ و بار دیگر با استدلال شمارهٔ ۴ جهت رأیش عوض می‌شود. نوسانش را می‌توان نشانهٔ تکیه به گویندهٔ قانع‌کنندهٔ همان لحظه خواند.</p><button type="button" data-open="12" aria-haspopup="dialog">پروندهٔ کامل ↗</button></article></div><a class="case-cta" href="#fekrino">رفتن به بازی سه‌محوری ↓</a></section><section id="fekrino" aria-labelledby="fk-title"><div class="wrap fk-wrap">
 <div class="fk-label">◈ فکرینو هفتم <span>پروندهٔ تمرینی / ۱۲ صندلی</span></div>
 <h2 id="fk-title">پشتِ رأی من چیه؟</h2>
@@ -239,7 +351,16 @@ updateProgress();
   const cases = [
     {quote:"چاقو حتماً کم‌یابه. عضو شمارهٔ چهار گفت و من به حرفش اعتماد دارم.", answer:0, why:"اعتماد به عضو شمارهٔ چهار، ملاک پذیرفتن حرف بوده."},
     {quote:"هرچقدر هم دربارهٔ زمان رسیدن شاهد حرف بزنید، من حس می‌کنم حتماً به‌موقع رسیده.", answer:1, why:"گوینده به حس خودش تکیه کرده."},
-    {quote:"بیایید زمان بگیریم که شاهد چقدر طول می‌کشه به در برسه. بعد نتیجه رو با حرفش مقایسه کنیم.", answer:2, why:"پیشنهاد گوینده اینه که ادعا رو با یک آزمایش بررسی کنیم."}
+    {quote:"بیایید زمان بگیریم که شاهد چقدر طول می‌کشه به در برسه. بعد نتیجه رو با حرفش مقایسه کنیم.", answer:2, why:"پیشنهاد گوینده اینه که ادعا رو با یک آزمایش بررسی کنیم."},
+    {"quote":"عضو شمارهٔ هشت گفت صبر کنیم. من هم قبول می‌کنم چون به خودش اعتماد دارم.","answer":0,"why":"اعتماد به گوینده مبنای تصمیم است."},
+    {"quote":"به نظرم شاهد اشتباه کرده، چون آدم‌ها معمولاً اشتباه می‌کنند. همین حس برایم کافی است.","answer":1,"why":"گوینده به حس خودش بسنده کرده."},
+    {"quote":"از روی نقشه ببینیم پنجرهٔ شاهد روبه‌روی کدام اتاق بوده.","answer":2,"why":"پیشنهاد این است که ادعا با نقشه بررسی شود."},
+    {"quote":"فلانی همیشه در بحث‌ها قاطع حرف می‌زند. پس این بار هم حتماً درست می‌گوید.","answer":0,"why":"قاطعیت گوینده جای بررسی ادعا را گرفته."},
+    {"quote":"من از اول تصمیمم را گرفته‌ام. همان نظر اولم را نگه می‌دارم.","answer":1,"why":"فرد به نظر قبلی خودش تکیه کرده."},
+    {"quote":"بیایید چاقو را در دو حالت بگیریم و ببینیم جهت ضربه چطور عوض می‌شود.","answer":2,"why":"گوینده پیشنهاد یک آزمایش قابل مشاهده را می‌دهد."},
+    {"quote":"چون رئیس جلسه این حرف را قبول کرده، من هم قبولش می‌کنم.","answer":0,"why":"جایگاه گوینده معیار قبول ادعا شده."},
+    {"quote":"من عجله دارم به مسابقه برسم. هر رأیی جلسه را زودتر تمام کند همان را می‌دهم.","answer":1,"why":"خواستهٔ شخصی مبنای رأی است."},
+    {"quote":"شاهد گفته صدا را شنیده. باید ببینیم عبور قطار چقدر روی شنیدن صدا اثر می‌گذارد.","answer":2,"why":"شنیدن ادعا به شرایط قابل بررسی ربط داده شده."}
   ];
   const panel = document.querySelector(".fk-console");
   const question = panel.querySelector("#fk-question");
@@ -326,7 +447,7 @@ updateProgress();
   for (const section of sections) {
     section.hidden = !visibleIds.includes(section.id);
   }
-  for (const selector of ['.hero', '.facts', '.route-cards']) {
+  for (const selector of ['.hero', '.facts', '.route-cards', '.premiere', '.ai-desk']) {
     const element = document.querySelector(selector);
     if (element) element.hidden = selected !== 0;
   }
@@ -336,7 +457,7 @@ updateProgress();
   banner.querySelector('p').textContent = descriptions[selected];
   for (const link of document.querySelectorAll('[data-page]')) {
     const id = link.dataset.page;
-    link.href = urlFor(id);
+    link.href = urlFor(id, link.dataset.target || "");
     if (id === current && link.closest('nav')) {
       link.setAttribute('aria-current', 'page');
     }
